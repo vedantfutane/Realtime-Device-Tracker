@@ -10,50 +10,51 @@ Location details: Displays the location data below the map.
 
 # Technologies Used
 ## Frontend:
-HTML
-CSS
-JavaScript
-Leaflet.js
-Socket.IO-client
+1. HTML
+2. CSS
+3. JavaScript
+4. Leaflet.js
+5. Socket.IO-client
 
 ## Backend:
-Node.js
-Express.js
-Socket.IO-server
+1. Node.js
+2. Express.js
+3. Socket.IO-server
 
 # Explanation of Key Files
-app.js: The main server file where the Express server and Socket.IO are configured.
-public/: Contains the static files served by the server.
-css/style.css: Contains the CSS styling for the application.
-js/script.js: Contains the client-side JavaScript for handling geolocation and updating the map.
-index.ejs: The main HTML file rendered by the server.
+* app.js: The main server file where the Express server and Socket.IO are configured.
+* public/: Contains the static files served by the server.
+* css/style.css: Contains the CSS styling for the application.
+* js/script.js: Contains the client-side JavaScript for handling geolocation and updating the map.
+* index.ejs: The main HTML file rendered by the server.
 
 # How It Works
-Geolocation Tracking: When a user opens the application, their browser requests permission to access their location using the Geolocation API.
-Real-time Communication: The location data is sent to the server via Socket.IO.
-Broadcasting Location: The server receives the location data and broadcasts it to all connected clients.
-Updating Map and List: Each client updates the map with markers representing the locations of all connected users and displays the location data below the map.
+* Geolocation Tracking: When a user opens the application, their browser requests permission to access their location using the Geolocation API.
+* Real-time Communication: The location data is sent to the server via Socket.IO.
+* Broadcasting Location: The server receives the location data and broadcasts it to all connected clients.
+* Updating Map and List: Each client updates the map with markers representing the locations of all connected users and displays the location data below the map.
 
 # Future Enhancements
-User Authentication: Allow users to log in and save their tracking history.
-Clustering Markers: Use marker clustering to handle scenarios with a high density of users.
-Enhanced UI/UX: Improve the user interface and add more interactive features.
+* User Authentication: Allow users to log in and save their tracking history.
+* Clustering Markers: Use marker clustering to handle scenarios with a high density of users.
+* Enhanced UI/UX: Improve the user interface and add more interactive features.
 
+##
 # Steps to Run this in your system
-## Prerequisites
+# Prerequisites
 Ensure you have Node.js and npm installed on your machine.
 
-## Installation
+# Installation
 Clone the repository: 
 git clone https://github.com/your-username/realtime-device-tracker.git
 cd realtime-device-tracker
 
-## Install dependencies: 
+# Install dependencies: 
 npm install express node socket.io 
 
-## Run the server: 
+# Run the server: 
 npm start
 npx nodemon app.js
 
-## Open your browser:
+# Open your browser:
 Navigate to http://localhost:3000 to see the application in action.
