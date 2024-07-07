@@ -43,14 +43,17 @@ Enhanced UI/UX: Improve the user interface and add more interactive features.
 ## Prerequisites
 Ensure you have Node.js and npm installed on your machine.
 
-Installation
-Clone the repository: git clone https://github.com/your-username/realtime-device-tracker.git
+## Installation
+Clone the repository: 
+git clone https://github.com/your-username/realtime-device-tracker.git
 cd realtime-device-tracker
 
-Install dependencies: npm install express node socket.io 
+## Install dependencies: 
+npm install express node socket.io 
 
-Run the server: npm start
-                npx nodemon app.js
+## Run the server: 
+npm start
+npx nodemon app.js
 
-Open your browser:
+## Open your browser:
 Navigate to http://localhost:3000 to see the application in action.
