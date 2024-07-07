@@ -3,7 +3,7 @@ Realtime Device Tracker is the project for getting the exact location based on t
 "A web application that tracks the real-time location of connected devices using Geolocation API, Socket.IO, and Leaflet.js."
 Realtime Device Tracker is an application that tracks the exact location of devices in real-time and displays them on a map with markers. The project is an excellent opportunity to practice backend development, learn about real-time communication with Socket.IO, and use the Leaflet library for interactive maps.
 
-# Fratures
+# Features
 - Realtime tracking of multiple devices
 - Display of device locations on a map
 - Clustering of markers to avoid overlapping
